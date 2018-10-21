@@ -1,7 +1,7 @@
 # T-test - hypothesis - problem an t/p-value check
 # Laptop (foil 15 - t-distribution applications)
 
-battery <- read.table("file:///Users/Tritium/Dropbox/Uni/Biostatistik/exercisedata/laptop.txt", header = T)
+battery <- read.table("insert file directory", header = T)
 attach(battery)
 names(battery)
 
@@ -13,7 +13,7 @@ sd(battery)
 t.test(battery, y = NULL, mu = 3.5)
 
 # Drugtest (foil 19 - t-distribution applications)
-drug <- read.table("file:///Users/Tritium/Dropbox/Uni/Biostatistik/exercisedata/drugtest.txt", header = T)
+drug <- read.table("insert file directory", header = T)
 attach(drug)
 names(drug)
 
@@ -47,7 +47,7 @@ mean of x
      3.25 
 
 > # Drugtest (foil 19 - t-distribution applications)
-> drug <- read.table("file:///Users/Tritium/Dropbox/Uni/Biostatistik/exercisedata/drugtest.txt", header = T)
+> drug <- read.table("insert file directory", header = T)
 > attach(drug)
 > names(drug)
 [1] "before" "after" 
